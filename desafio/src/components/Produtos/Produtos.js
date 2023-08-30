@@ -9,7 +9,7 @@ function Produtos() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper, tortor sed vehicula.</p>
             <div class="container-cards">
                 <div class="card">
-                    <img src={produto1} class="card-img-top" width={209} alt="..."  />
+                    <center><img src={produto1} class="card-img" width={200} alt="..."  /></center>
                     <div class="card-body">
                         <h5 class="card-title">Garrafa 350ml</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet</p>
@@ -18,7 +18,7 @@ function Produtos() {
                 </div>
 
                 <div class="card">
-                    <img src={produto2} class="card-img-top" width={209} alt="..." />
+                <center><img src={produto2} class="card-img" width={209} alt="..." /></center>
                     <div class="card-body">
                         <h5 class="card-title">Garrafa 100ml</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet</p>

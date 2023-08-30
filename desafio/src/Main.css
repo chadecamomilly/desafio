@@ -2,19 +2,20 @@
 
 
 @font-face {
-    font-family: "ArtigoRegular";
-    src: local("Fonts"),
-     url("./fonts/artigo-pro-regular.otf") format("otf");
-   }
+  font-family: "ArtigoRegular";
+  src: local("Fonts"),
+    url("./fonts/artigo-pro-regular.otf") format("otf");
+}
 
-   @font-face {
-    font-family: "ArtigoBold";
-    src: local("Fonts"),
-     url("./fonts/artigo-pro-bold.otf") format("otf");
-   }
+@font-face {
+  font-family: "ArtigoBold";
+  src: local("Fonts"),
+    url("./fonts/artigo-pro-bold.otf") format("otf");
+}
 
 
 body {
-    margin: 0 auto;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-

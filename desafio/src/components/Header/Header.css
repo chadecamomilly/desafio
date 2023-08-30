@@ -24,7 +24,7 @@ header h1{
 }
 
 header-esquerda {
-    width:40%;
+    width:50%;
 }
 
 header-direita {
@@ -47,7 +47,7 @@ header-direita {
     border:1px solid black;
 }
 
-@media only screen and (max-width: 735px)  { 
+@media only screen  and (max-width: 735px)  { 
     header h1{
         font-size:48px;
         font-family: 'ArtigoRegular';
@@ -55,11 +55,11 @@ header-direita {
     }
 
     header-esquerda {
-        width:60%;
+        width:50%;
     }
     
     header-direita {
-        width:40%;
+        width:50%;
     }
     header-direita img{
         width:100%;
