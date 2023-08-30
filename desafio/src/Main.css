@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
+
+@font-face {
+    font-family: "ArtigoRegular";
+    src: local("Fonts"),
+     url("./fonts/artigo-pro-regular.otf") format("otf");
+   }
+
+   @font-face {
+    font-family: "ArtigoBold";
+    src: local("Fonts"),
+     url("./fonts/artigo-pro-bold.otf") format("otf");
+   }
+
+
+body {
+    margin: 0 auto;
+}
+
