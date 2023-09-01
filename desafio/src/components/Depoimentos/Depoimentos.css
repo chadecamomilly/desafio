@@ -1,6 +1,6 @@
 .depo-container {
-    width: 80%;
-    margin: 0 auto;
+    width: 75%;
+    margin: 120px auto;
     display: grid;
     grid-template-areas:
         "col1 col1 col2 col2"
@@ -17,15 +17,15 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    padding: 100px;
+    padding: 120px;
     grid-area: col1;
 }
 
 .depo-direita-1 {
     grid-area: col2;
-    background-color: #1B1F1C;
+    background-color: var(--second-color);
     text-align: center;
-    color: white;
+    color: var(--third-color);
     height: auto;
     margin-bottom: -50px;
 }
@@ -41,14 +41,31 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+    position: relative;
     font-size: 32px;
-    color: white;
+    color: var(--third-color);
     font-family: 'ArtigoBold';
     text-align: center;
+    background-color: var(--third-color);
 }
+
+.depo-direita-2::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.308);
+    color: var(--second-color);
+
+}
+
 
 .depo-direita-2 p {
     margin-top: 155px;
+    position: relative;
+    color: var(--third-color);
 }
 
 
@@ -57,7 +74,7 @@
 }
 
 .carousel p {
-    color: white;
+    color: var(--third-color);
     font-family: 'ArtigoRegular';
     font-weight: 500;
     font-size: 18px;
@@ -77,7 +94,7 @@ h3 {
             "col2"
             "col3"
         ;
-        height: 747px;
+        height: auto;
     }
 
     .depo-esquerda {
@@ -87,11 +104,11 @@ h3 {
 
     .depo-direita-1 {
         margin-bottom: 0px;
-        padding:80px 0;
+        padding: 80px 0;
     }
 
     .depo-direita-2 {
-        padding:120px 0;
+        padding: 120px 0;
     }
 
     .depo-direita-2 p {
@@ -102,6 +119,6 @@ h3 {
         height: 200px;
     }
 
-    
+
 
 }

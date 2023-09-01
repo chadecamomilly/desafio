@@ -4,6 +4,8 @@ import Menu from './components/Menu/Menu';
 import Header from './components/Header/Header';
 import Produtos from './components/Produtos/Produtos';
 import Depoimentos from './components/Depoimentos/Depoimentos';
+import Cta from './components/Seção CTA/Cta';
+import Contato from './components/Contato/Contato';
 
 function Main() {
   return (
@@ -12,6 +14,8 @@ function Main() {
       <Header />
       <Produtos />
       <Depoimentos />
+      <Cta />
+      <Contato />
     </> 
   );
 }

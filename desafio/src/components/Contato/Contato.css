@@ -1,0 +1,12 @@
+.container-contato{
+    width:80%;
+    margin:0 auto;
+    padding:100px 0;
+}
+
+.fundo-contato{
+    background-color: var(--fourth-color);
+    color:var(--third-color);
+    z-index:2;
+    position:relative;
+}

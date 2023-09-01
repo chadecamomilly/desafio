@@ -4,11 +4,11 @@ import lata from'./lata-guarana1.png'
 function Header() {
     return (
       <header>
-        <div class="content">
+        <div className="content">
 
         <header-esquerda>
         <h1>Aqui um título de duas linhas</h1>
-        <button type="button" class="btn btn-primary btn-lg">Aqui um CTA</button>
+        <button type="button" className="btn btn-primary btn-lg">Aqui um CTA</button>
         </header-esquerda>
 
         <header-direita>

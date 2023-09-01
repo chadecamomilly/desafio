@@ -4,25 +4,25 @@ import produto2 from './produto2.png'
 
 function Produtos() {
     return (
-        <div class="container-produtos">
+        <div className="container-produtos">
             <h2>Produtos</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper, tortor sed vehicula.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris <br></br> semper, tortor sed vehicula.</p>
             <div class="container-cards">
-                <div class="card">
-                    <center><img src={produto1} class="card-img" width={200} alt="..."  /></center>
-                    <div class="card-body">
-                        <h5 class="card-title">Garrafa 350ml</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet</p>
-                        <a href="#" class="btn btn-primary p">Aqui um CTA</a>
+                <div className="card">
+                    <center><img src={produto1} className="card-img" width={200} alt="..."  /></center>
+                    <div className="card-body">
+                        <h5 className="card-title">Garrafa 350ml</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet</p>
+                        <a href="#" className="btn btn-primary p">Aqui um CTA</a>
                     </div>
                 </div>
 
-                <div class="card">
-                <center><img src={produto2} class="card-img" width={209} alt="..." /></center>
-                    <div class="card-body">
-                        <h5 class="card-title">Garrafa 100ml</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet</p>
-                        <a href="#" class="btn btn-primary p">Aqui um CTA</a>
+                <div className="card">
+                <center><img src={produto2} className="card-img" width={209} alt="..." /></center>
+                    <div className="card-body">
+                        <h5 className="card-title">Garrafa 100ml</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet</p>
+                        <a href="#" className="btn btn-primary p">Aqui um CTA</a>
                     </div>
                 </div>
             </div>

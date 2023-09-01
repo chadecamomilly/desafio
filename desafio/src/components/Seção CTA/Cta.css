@@ -1,0 +1,141 @@
+.fundo-verde {
+    background-color: var(--main-color);
+    margin-bottom:-140px;
+}
+
+.container-cta {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.lata3 {
+    position: absolute;
+    margin-top: -5%;
+}
+
+.lata4 {
+    margin: 0 0 0 25%;
+}
+
+.lata5 {
+    margin-top: -27%;
+}
+
+.cta-meio {
+    text-align: center;
+    width: 33%;
+    margin-top: 80px;
+
+}
+
+.cta-esquerda,
+.cta-direita {
+    width: 33%;
+}
+
+.cta-meio h6 {
+    font-size: 24px;
+    font-family: 'Artigo Bold';
+    font-weight: 700;
+}
+
+.btn-secondary {
+    background-color: var(--second-color);
+    border: 1px solid var(--second-color);
+    border-radius: 25px;
+    font-family: 'Inter';
+    color: var(--third-color);
+    font-size: 14px;
+    padding: 15px 50px;
+    margin:20px 0;
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+    border: 1px solid var(--second-color);
+    color: var(--second-color);
+}
+
+.btn-secondary:active {
+    background-color: var(--second-color);
+    border: 1px solid var(--second-color);
+}
+
+@media only screen and (max-width: 735px) {
+    .container-cta {
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .lata3 {
+        position: absolute;
+        margin: -10% 0 0 -5%;
+    }
+
+    .lata4 {
+        margin: 0 0 0 15%;
+    }
+
+    .lata5 {
+        margin-top: -35%;
+    }
+
+    .cta-meio {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 540px) {
+    .container-cta {
+        width: 95%;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        flex-direction: column-reverse;
+        height:auto;
+        gap:20px;
+    }
+
+    .cta-meio {
+        text-align: center;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        padding-bottom:30px;
+    }
+
+    .cta-direita{
+        width:100%;
+    }
+
+    .cta-direita img{
+        width:30%;
+        transform: rotate(-15deg);
+    }
+
+    .lata5 {
+        margin-top: -10%;
+    }
+
+    
+
+    .cta-esquerda {
+        display: none;
+    }
+
+    .fundo-verde{
+        margin-bottom:0;
+    }
+
+   
+
+
+}
