@@ -1,4 +1,5 @@
 import './Contato.css'
+import Form from './Form';
 
 function Contato() {
     return (
@@ -6,10 +7,15 @@ function Contato() {
             <div className="container-contato">
 
                 <div className="contato-esquerda">
-                    conteudo
+                    <h5>Fale Conosco.</h5>
+                    <div className="redes-sociais">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        │ REDES SOCIAIS
+                    </div>
                 </div>
                 <div className="contato-direita">
-                    conteudo
+                    <Form />oo
                 </div>
 
             </div>

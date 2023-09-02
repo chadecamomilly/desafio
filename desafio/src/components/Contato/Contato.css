@@ -2,6 +2,8 @@
     width:80%;
     margin:0 auto;
     padding:100px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .fundo-contato{
@@ -10,3 +12,12 @@
     z-index:2;
     position:relative;
 }
+
+.redes-sociais {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size:14px;
+    display: flex;
+    gap:10px;
+}
+

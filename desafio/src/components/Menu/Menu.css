@@ -7,7 +7,7 @@ nav {
     padding:20px 0px;
 }
 
-right {
+.nav-direita {
     display:flex;
     gap: 12px;
     align-self: center;

@@ -20,7 +20,7 @@
 }
 
 .lata5 {
-    margin-top: -27%;
+    margin-top: -13%;
 }
 
 .cta-meio {
@@ -35,11 +35,6 @@
     width: 33%;
 }
 
-.cta-meio h6 {
-    font-size: 24px;
-    font-family: 'Artigo Bold';
-    font-weight: 700;
-}
 
 .btn-secondary {
     background-color: var(--second-color);

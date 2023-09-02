@@ -12,7 +12,7 @@ function Cta() {
                     <img src={lata4} className="lata4" alt="Lata Guaraná" />
                 </div>
                 <div className="cta-meio">
-                    <h6>Quer experimentar?</h6>
+                    <h4>Quer experimentar?</h4>
                     <a href="#" className="btn btn-secondary">Aqui um CTA</a>
 
                 </div>
