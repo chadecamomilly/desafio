@@ -14,8 +14,8 @@ function Contato() {
                         │ REDES SOCIAIS
                     </div>
                 </div>
-                <div className="contato-direita">
-                    <Form />oo
+                <div className="contato-direita right">
+                    <Form />
                 </div>
 
             </div>

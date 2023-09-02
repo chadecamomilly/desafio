@@ -1,23 +1,60 @@
-.container-contato{
-    width:80%;
-    margin:0 auto;
-    padding:100px 0;
+.container-contato {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
     display: flex;
     justify-content: space-between;
 }
 
-.fundo-contato{
+.fundo-contato {
     background-color: var(--fourth-color);
-    color:var(--third-color);
-    z-index:2;
-    position:relative;
+    color: var(--third-color);
+    z-index: 2;
+    position: relative;
 }
 
 .redes-sociais {
     font-family: 'Inter';
     font-weight: 400;
-    font-size:14px;
+    font-size: 14px;
     display: flex;
-    gap:10px;
+    gap: 10px;
 }
 
+.contato-direita,
+.contato-esquerda {
+    width: 100%;
+}
+
+.contact__form .form-control {
+    padding: .65rem .75rem;
+    line-height: 1.5;
+    color: var(--third-color);
+    background-color: transparent;
+    border-color: var(--third-color);
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+    margin-bottom:2.0em;
+}
+
+
+.form-control:focus, .form-control:active{
+    background-color: rgb(46, 46, 46);
+    border-color: var(--main-color);
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+    box-shadow: none;
+}
+
+.form-control::placeholder{
+    color:var(--third-color)
+}
+
+label {
+    font-size:12px;
+    text-transform: uppercase;
+}
+
+.right {
+    float: right;
+}
