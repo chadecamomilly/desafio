@@ -1,5 +1,7 @@
 import './Contato.css'
 import Form from './Form';
+import logo from './logo.png';
+
 
 function Contato() {
     return (
@@ -13,12 +15,21 @@ function Contato() {
                         <i class="bi bi-instagram"></i>
                         │ REDES SOCIAIS
                     </div>
+
                 </div>
-                <div className="contato-direita right">
+                <div className="contato-direita">
                     <Form />
                 </div>
 
             </div>
+            <div className="container-contato">
+                    <div className="copy">
+                        Todos os direitos reservados © 2020 Conecta
+                    </div>
+                    <div className="copy">
+                        Projetado por <img src={logo} width={134} height={51} alt="Logo" />
+                    </div>
+                </div>
         </div>
     );
 }

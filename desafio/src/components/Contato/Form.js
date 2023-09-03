@@ -36,12 +36,13 @@ function Form() {
                             className="form-control rounded-0"
                             id="email"
                             name="email"
-                            placeholder="E-mail"
+                            placeholder="email@email.com.br"
                             type="email"
                         />
                     </Col>
 
                 </Row>
+                <Col lg='12' className="form-group">
                 <label for="sel">Assunto</label>
                 <select
                     className="form-control rounded-0"
@@ -49,10 +50,12 @@ function Form() {
                     name="sel"
                 >
                     <option value="volvo">Selecione uma opção...</option>
-                    <option value="um">Chamar a Camilly para a entrevista!</option>
+                    <option value="um">...</option>
                     <option value="dois">...</option>
                     <option value="tres">...</option>
                 </select>
+                </Col>
+                <Col lg='12' className="form-group">
                 <label for="mensagem">Mensagem</label>
                 <textarea
                     className="form-control rounded-0"
@@ -61,10 +64,11 @@ function Form() {
                     placeholder="Mensagem"
                     rows='4'
                 ></textarea>
-                <br />
+                </Col>
+                
                 <Row>
-                    <Col lg='6' className="form-group">
-                        <button className="btn btn-primary btn-lg" type="submit">Enviar</button>
+                    <Col lg='12' className="form-group">
+                        <button className="btn btn-primary btn-lg" type="submit">Aqui um CTA</button>
                     </Col>
                 </Row>
             </form>
