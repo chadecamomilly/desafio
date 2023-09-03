@@ -22,7 +22,7 @@
 
 .depo-direita-1 {
     grid-area: col2;
-    background-color: var(--second-color);
+    background-color: #1B1F1C;
     text-align: center;
     color: var(--third-color);
     height: auto;
@@ -38,9 +38,8 @@
     position: relative;
     font-size: 32px;
     color: var(--third-color);
-    font-family: 'ArtigoBold';
+    font-family: 'ArtigoRegular';
     text-align: center;
-    background-color: var(--third-color);
 }
 
 .depo-direita-2::before {
@@ -50,7 +49,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(53, 53, 53, 0.486);
     color: var(--second-color);
 
 }
@@ -60,6 +59,7 @@
     margin-top: 155px;
     position: relative;
     color: var(--third-color);
+    font-family: 'Artigo';
 }
 
 .carousel-control-prev,
@@ -69,13 +69,12 @@
 
 
 .carousel-item {
-    height: 300px;
+    height: 290px;
 }
 
 .carousel p {
     color: var(--third-color);
-    font-family: 'ArtigoRegular';
-    font-weight: 500;
+    font-family: 'Artigo';
     font-size: 18px;
 }
 

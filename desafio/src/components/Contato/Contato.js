@@ -26,7 +26,7 @@ function Contato() {
                     <div className="copy">
                         Todos os direitos reservados © 2020 Conecta
                     </div>
-                    <div className="copy">
+                    <div className="copy s">
                         Projetado por <img src={logo} width={134} height={51} alt="Logo" />
                     </div>
                 </div>

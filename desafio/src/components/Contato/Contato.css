@@ -1,7 +1,7 @@
 .container-contato {
     width: 80%;
     margin: 0 auto;
-    padding: 120px 0 0 0;
+    padding: 80px 0 0 0;
     display: flex;
     justify-content: space-between;
 }
@@ -79,6 +79,21 @@ label {
 .form-group>button {
     float: right;
 }
+
+select {
+    cursor:pointer;
+  }
+
+  .copy {
+    font-family: 'Inter';
+    font-size:12px;
+  }
+
+  .s{
+    font-size:12px;
+    text-transform: uppercase;
+  }
+
 
 @media only screen and (max-width: 735px) {
     .container-contato {

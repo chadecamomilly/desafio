@@ -45,11 +45,13 @@ function Form() {
                 <Col lg='12' className="form-group">
                 <label for="sel">Assunto</label>
                 <select
-                    className="form-control rounded-0"
+                    className="form-control rounded-0 form-select"
+                    as="select"
                     id="sel"
                     name="sel"
+                    
                 >
-                    <option value="volvo">Selecione uma opção...</option>
+                    <option value="volvo">Selecione um Assunto</option>
                     <option value="um">...</option>
                     <option value="dois">...</option>
                     <option value="tres">...</option>
